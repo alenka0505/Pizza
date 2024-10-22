@@ -1,0 +1,185 @@
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(241, 206, 190);
+  padding: 20px 30px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+}
+.header_logo {
+  font-size: 80px;
+  margin: 0;
+}
+.logo_letter {
+  color: rgb(255, 0, 0);
+}
+.header_container {
+  min-height: 50px;
+  display: flex;
+  gap: 30px;
+}
+.header_menu_button {
+  background-color: inherit;
+  border: none;
+  font-size: 25px;
+  color: rgb(187, 0, 97);
+  display: inline-block;
+}
+.header_menu_button:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transform: scale(1.2);
+}
+#menu {
+  display: none;
+}
+.header_menu_list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.header_menu_item {
+  padding: 8px 12px;
+}
+.header_menu_item:hover {
+  cursor: pointer;
+  background-color: rgb(216, 216, 216);
+}
+#menu:checked + .header_menu_button + .header_menu_list {
+  display: block;
+}
+.header_category {
+  background-color: inherit;
+  border: none;
+  font-size: 30px;
+  transition: all 0.5s linear;
+}
+.header_category:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transform: scale(1.2);
+}
+
+.main {
+  background-color: rgb(180, 223, 223);
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main_container {
+  width: 90%;
+  min-height: 500px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+  row-gap: 20px;
+}
+.main_pizza {
+  min-height: 100px;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main_pizza-img {
+  width: 100%;
+  height: 300px;
+}
+.main_pizza-img2 {
+  background-image: url(/images/pizza_1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.main_pizza-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 25px;
+  font-weight: 700;
+}
+.main_button {
+  width: 100%;
+  min-height: 30px;
+  font-size: 20px;
+  border: none;
+  background-color: rgb(220, 137, 137);
+  padding: 10px 0;
+}
+.main_button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.header_busket {
+  border: none;
+  background-color: inherit;
+}
+.header_busket:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.header_basket-img {
+  width: 50px;
+  height: 50px;
+}
+.main_ingredients {
+  font-size: 20px;
+  margin: 0 0 30px;
+}
+.main_pizza-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  width: 100%;
+  min-height: 100px;
+  background-color: rgb(206, 255, 241);
+  display: flex;
+}
+.footer_container {
+  margin: 20px 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.footer_logo {
+  color: black;
+}
+.logo_footer {
+  color: red;
+}
+.footer_address {
+  list-style: circle;
+  padding-left: 0;
+}
+.footer_link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+.footer_link:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transform: scale(1.2);
+  display: block;
+}
+.footer_item {
+  margin-left: 20px;
+}
