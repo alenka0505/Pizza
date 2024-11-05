@@ -10,6 +10,7 @@
   justify-content: space-between;
   position: sticky;
   top: 0;
+  z-index: 2;
 }
 .header_logo {
   font-size: 80px;
@@ -97,8 +98,10 @@
   justify-content: space-between;
 }
 .main_pizza-img {
-  width: 100%;
   height: 300px;
+  position: absolute;
+  top: 0;
+  z-index: 1;
 }
 .main_pizza-img2 {
   background-image: url(/images/pizza_1.png);
@@ -145,6 +148,11 @@
 .main_pizza-info {
   display: flex;
   flex-direction: column;
+}
+.main_img-container{
+  width: 300px;
+  height: 300px;
+  position: relative;
 }
 
 .footer {
