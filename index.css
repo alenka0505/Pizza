@@ -64,6 +64,13 @@
   border: none;
   font-size: 30px;
   transition: all 0.5s linear;
+  display: inline-block;
+}
+#pizza {
+  display: none;
+}
+#pizza:checked + .header_category + .header_menu_list {
+  display: block;
 }
 .header_category:hover {
   cursor: pointer;
