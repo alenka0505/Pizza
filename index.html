@@ -11,23 +11,44 @@
     <header class="header">
       <p class="header_logo">Itz Pi<span class="logo_letter">zz</span>a</p>
       <div class="header_container">
-        <input type="checkbox" id="pizza">
-        <label for="pizza" class="header_category">Пицца</label>
-        <ul class="header_menu_list">
-          <li class="header_menu_item">пицца 1</li>
-          <li class="header_menu_item">пицца 2</li>
-          <li class="header_menu_item">пицца 3</li>
-        </ul>
-        <button class="header_category">Напитки</button>
-        <button class="header_category">Закуски</button>
+        <div class="header_btn_container">
+          <input type="checkbox" id="pizza" />
+          <label for="pizza" class="header_category">Пицца</label>
+          <ul class="header_menu_list header_menu_list_pizza">
+            <li class="header_menu_item">Пицца 1</li>
+            <li class="header_menu_item">Пицца 2</li>
+            <li class="header_menu_item">Пицца 3</li>
+          </ul>
+        </div>
+        <div class="header_btn_container">
+          <input type="checkbox" id="drink" />
+          <label for="drink" class="header_category">Напитки</label>
+          <ul class="header_menu_list header_menu_list_drink">
+            <li class="header_menu_item">Напиток 1</li>
+            <li class="header_menu_item">Напиток 2</li>
+            <li class="header_menu_item">Напиток 3</li>
+          </ul>
+        </div>
+        <div class="header_btn_container">
+          <input type="checkbox" id="zakyska" />
+          <label for="zakyska" class="header_category">Закуски</label>
+          <ul class="header_menu_list header_menu_list_zakyska">
+            <li class="header_menu_item">Закуска 1</li>
+            <li class="header_menu_item">Закуска 2</li>
+            <li class="header_menu_item">Закуска 3</li>
+          </ul>
+        </div>
       </div>
       <button class="header_busket">
-        <img class="header_basket-img" src="/images/basket.png" alt="корзина" />
+        <img
+          class="header_basket-img"
+          src="./images/basket.png"
+          alt="корзина"
+        />
       </button>
       <div class="header_menu">
         <input type="checkbox" id="menu" />
         <label for="menu" class="header_menu_button">Меню</label>
-
         <ul class="header_menu_list">
           <li class="header_menu_item">Пицца</li>
           <li class="header_menu_item">Напитки</li>
@@ -40,13 +61,11 @@
       <div class="main_container">
         <div class="main_pizza">
           <div class="main_pizza-info">
-            <div class="main_img-container">
-              <img
-                class="main_pizza-img"
-                src="/images/pizza_1.png"
-                alt="pizza_1"
-              />
-            </div>
+            <img
+              class="main_pizza-img"
+              src="./images/pizza_1.png"
+              alt="pizza_1"
+            />
             <div class="main_pizza-container">
               <p>Пепперони</p>
               <p>359 рублей</p>
@@ -59,13 +78,11 @@
         </div>
         <div class="main_pizza">
           <div class="main_pizza-info">
-            <div class="main_img-container">
-              <img
-                class="main_pizza-img"
-                src="/images/pizza_2.png"
-                alt="pizza_2"
-              />
-            </div>
+            <img
+              class="main_pizza-img"
+              src="./images/pizza_2.png"
+              alt="pizza_2"
+            />
             <div class="main_pizza-container">
               <p>Острая пицца</p>
               <p>299 рублей</p>
@@ -78,13 +95,11 @@
         </div>
         <div class="main_pizza">
           <div class="main_pizza-info">
-            <div class="main_img-container">
-              <img
-                class="main_pizza-img"
-                src="/images/pizza_3.png"
-                alt="pizza_3"
-              />
-            </div>
+            <img
+              class="main_pizza-img"
+              src="./images/pizza_3.png"
+              alt="pizza_3"
+            />
             <div class="main_pizza-container">
               <p>Новинка</p>
               <p>399 рублей</p>
@@ -97,13 +112,11 @@
         </div>
         <div class="main_pizza">
           <div class="main_pizza-info">
-            <div class="main_img-container">
-              <img
-                class="main_pizza-img"
-                src="/images/pizza_4.png"
-                alt="pizza_4"
-              />
-            </div>
+            <img
+              class="main_pizza-img"
+              src="./images/pizza_4.png"
+              alt="pizza_4"
+            />
             <div class="main_pizza-container">
               <p>Пицца оливка</p>
               <p>459 рублей</p>
@@ -116,13 +129,11 @@
         </div>
         <div class="main_pizza">
           <div class="main_pizza-info">
-            <div class="main_img-container">
-              <img
-                class="main_pizza-img"
-                src="/images/pizza_5.png"
-                alt="pizza_5"
-              />
-            </div>
+            <img
+              class="main_pizza-img"
+              src="./images/pizza_5.png"
+              alt="pizza_5"
+            />
             <div class="main_pizza-container">
               <p>Пицца с сыром</p>
               <p>359 рублей</p>
@@ -135,13 +146,11 @@
         </div>
         <div class="main_pizza">
           <div class="main_pizza-info">
-            <div class="main_img-container">
-              <img
-                class="main_pizza-img"
-                src="/images/pizza_6.png"
-                alt="pizza_6"
-              />
-            </div>
+            <img
+              class="main_pizza-img"
+              src="./images/pizza_6.png"
+              alt="pizza_6"
+            />
             <div class="main_pizza-container">
               <p>Пицца 4 сыра</p>
               <p>259 рублей</p>
@@ -154,13 +163,11 @@
         </div>
         <div class="main_pizza">
           <div class="main_pizza-info">
-            <div class="main_img-container">
-              <img
-                class="main_pizza-img"
-                src="/images/drink_1.png"
-                alt="drink_1"
-              />
-            </div>
+            <img
+              class="main_pizza-img"
+              src="./images/drink_1.png"
+              alt="drink_1"
+            />
             <div class="main_pizza-container">
               <p>Кола</p>
               <p>59 рублей</p>
@@ -171,13 +178,11 @@
         </div>
         <div class="main_pizza">
           <div class="main_pizza-info">
-            <div class="main_img-container">
-              <img
-                class="main_pizza-img"
-                src="/images/drink_2.png"
-                alt="drink_2"
-              />
-            </div>
+            <img
+              class="main_pizza-img"
+              src="./images/drink_2.png"
+              alt="drink_2"
+            />
             <div class="main_pizza-container">
               <p>Сок</p>
               <p>89 рублей</p>
@@ -188,13 +193,11 @@
         </div>
         <div class="main_pizza">
           <div class="main_pizza-info">
-            <div class="main_img-container">
-              <img
-                class="main_pizza-img"
-                src="/images/drink_3.png"
-                alt="drink_3"
-              />
-            </div>
+            <img
+              class="main_pizza-img"
+              src="./images/drink_3.png"
+              alt="drink_3"
+            />
             <div class="main_pizza-container">
               <p>Фанта</p>
               <p>50 рублей</p>
@@ -205,13 +208,11 @@
         </div>
         <div class="main_pizza">
           <div class="main_pizza-info">
-            <div class="main_img-container">
-              <img
-                class="main_pizza-img"
-                src="/images/drink_4.png"
-                alt="drink_4"
-              />
-            </div>
+            <img
+              class="main_pizza-img"
+              src="./images/drink_4.png"
+              alt="drink_4"
+            />
             <div class="main_pizza-container">
               <p>Морс</p>
               <p>89 рублей</p>
@@ -222,13 +223,11 @@
         </div>
         <div class="main_pizza">
           <div class="main_pizza-info">
-            <div class="main_img-container">
-              <img
-                class="main_pizza-img"
-                src="/images/drink_5.png"
-                alt="drink_5"
-              />
-            </div>
+            <img
+              class="main_pizza-img"
+              src="./images/drink_5.png"
+              alt="drink_5"
+            />
             <div class="main_pizza-container">
               <p>Пепси</p>
               <p>69 рублей</p>
@@ -239,13 +238,11 @@
         </div>
         <div class="main_pizza">
           <div class="main_pizza-info">
-            <div class="main_img-container">
-              <img
-                class="main_pizza-img"
-                src="/images/drink_6.png"
-                alt="drink_6"
-              />
-            </div>
+            <img
+              class="main_pizza-img"
+              src="./images/drink_6.png"
+              alt="drink_6"
+            />
             <div class="main_pizza-container">
               <p>Вода</p>
               <p>39 рублей</p>
@@ -256,13 +253,11 @@
         </div>
         <div class="main_pizza">
           <div class="main_pizza-info">
-            <div class="main_img-container">
-              <img
-                class="main_pizza-img"
-                src="/images/zakyska_1.png"
-                alt="zakyska_1"
-              />
-            </div>
+            <img
+              class="main_pizza-img"
+              src="./images/zakyska_1.png"
+              alt="zakyska_1"
+            />
             <div class="main_pizza-container">
               <p>Сырные палочки</p>
               <p>150 рублей</p>
@@ -273,13 +268,11 @@
         </div>
         <div class="main_pizza">
           <div class="main_pizza-info">
-            <div class="main_img-container">
-              <img
-                class="main_pizza-img"
-                src="/images/zakyska_2.png"
-                alt="zakyska_2"
-              />
-            </div>
+            <img
+              class="main_pizza-img"
+              src="./images/zakyska_2.png"
+              alt="zakyska_2"
+            />
             <div class="main_pizza-container">
               <p>Луковые колечки</p>
               <p>150 рублей</p>
@@ -290,13 +283,11 @@
         </div>
         <div class="main_pizza">
           <div class="main_pizza-info">
-            <div class="main_img-container">
-              <img
-                class="main_pizza-img"
-                src="/images/zakyska_3.png"
-                alt="zakyska_3"
-              />
-            </div>
+            <img
+              class="main_pizza-img"
+              src="./images/zakyska_3.png"
+              alt="zakyska_3"
+            />
             <div class="main_pizza-container">
               <p>Куриные крылья</p>
               <p>99 рублей.По скидке 50%</p>
