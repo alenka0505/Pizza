@@ -45,6 +45,7 @@
 }
 .header_menu_list {
   list-style-type: none;
+  min-width: 100px;
   margin: 0;
   padding: 0;
   display: none;
